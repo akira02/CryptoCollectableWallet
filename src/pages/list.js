@@ -87,12 +87,13 @@ function List() {
           </p>
         }
       >
-        <Row>
+        <Row justify="center">
           {data.map((item) => {
             return (
               <Col
                 md={12}
                 key={`${item.asset_contract.address}/${item.token_id}`}
+                flex="center"
               >
                 <Link
                   to={`/detail/${item.asset_contract.address}/${item.token_id}`}

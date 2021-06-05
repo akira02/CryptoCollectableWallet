@@ -21,15 +21,30 @@ body {
 }
 
 .ant-card-cover {
-  width: 40vw;
-  height: 40vw;
   overflow: hidden;
 }
 
 .ant-card-cover img {
-  width: 40vw;
-  height: 40vw;
+  height: 400px;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .ant-card-cover {
+    width: 40vw;
+    height: 40vw;
+    overflow: hidden;
+  }
+
+  .ant-card-cover img {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+  }
+}
+
+.ant-card-bordered {
+  margin: auto;
 }
 
 .detail_content {
