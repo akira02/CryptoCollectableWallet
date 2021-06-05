@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CryptoCollectableWallet/static/css/main.2545b2e8.chunk.css",
-    "main.js": "/CryptoCollectableWallet/static/js/main.acbe4630.chunk.js",
-    "main.js.map": "/CryptoCollectableWallet/static/js/main.acbe4630.chunk.js.map",
+    "main.css": "/CryptoCollectableWallet/static/css/main.af6a48b9.chunk.css",
+    "main.js": "/CryptoCollectableWallet/static/js/main.7ef810f9.chunk.js",
+    "main.js.map": "/CryptoCollectableWallet/static/js/main.7ef810f9.chunk.js.map",
     "runtime-main.js": "/CryptoCollectableWallet/static/js/runtime-main.00d0d761.js",
     "runtime-main.js.map": "/CryptoCollectableWallet/static/js/runtime-main.00d0d761.js.map",
     "static/css/2.c5b6f512.chunk.css": "/CryptoCollectableWallet/static/css/2.c5b6f512.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.e8205a70.chunk.js.map": "/CryptoCollectableWallet/static/js/3.e8205a70.chunk.js.map",
     "index.html": "/CryptoCollectableWallet/index.html",
     "static/css/2.c5b6f512.chunk.css.map": "/CryptoCollectableWallet/static/css/2.c5b6f512.chunk.css.map",
-    "static/css/main.2545b2e8.chunk.css.map": "/CryptoCollectableWallet/static/css/main.2545b2e8.chunk.css.map",
+    "static/css/main.af6a48b9.chunk.css.map": "/CryptoCollectableWallet/static/css/main.af6a48b9.chunk.css.map",
     "static/js/2.b467232b.chunk.js.LICENSE.txt": "/CryptoCollectableWallet/static/js/2.b467232b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.00d0d761.js",
     "static/css/2.c5b6f512.chunk.css",
     "static/js/2.b467232b.chunk.js",
-    "static/css/main.2545b2e8.chunk.css",
-    "static/js/main.acbe4630.chunk.js"
+    "static/css/main.af6a48b9.chunk.css",
+    "static/js/main.7ef810f9.chunk.js"
   ]
 }
