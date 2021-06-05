@@ -59,7 +59,7 @@ function List() {
       const account = accounts[0];
       setaccount(account);
     } else {
-      console.error("Please install MetaMask!");
+      window.alert("Please install MetaMask!");
     }
   }
 
