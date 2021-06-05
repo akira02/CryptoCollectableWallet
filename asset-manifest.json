@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ccw/static/css/main.2545b2e8.chunk.css",
-    "main.js": "/ccw/static/js/main.b3b9aade.chunk.js",
-    "main.js.map": "/ccw/static/js/main.b3b9aade.chunk.js.map",
-    "runtime-main.js": "/ccw/static/js/runtime-main.01746f25.js",
-    "runtime-main.js.map": "/ccw/static/js/runtime-main.01746f25.js.map",
-    "static/css/2.c5b6f512.chunk.css": "/ccw/static/css/2.c5b6f512.chunk.css",
-    "static/js/2.b467232b.chunk.js": "/ccw/static/js/2.b467232b.chunk.js",
-    "static/js/2.b467232b.chunk.js.map": "/ccw/static/js/2.b467232b.chunk.js.map",
-    "static/js/3.e8205a70.chunk.js": "/ccw/static/js/3.e8205a70.chunk.js",
-    "static/js/3.e8205a70.chunk.js.map": "/ccw/static/js/3.e8205a70.chunk.js.map",
-    "index.html": "/ccw/index.html",
-    "static/css/2.c5b6f512.chunk.css.map": "/ccw/static/css/2.c5b6f512.chunk.css.map",
-    "static/css/main.2545b2e8.chunk.css.map": "/ccw/static/css/main.2545b2e8.chunk.css.map",
-    "static/js/2.b467232b.chunk.js.LICENSE.txt": "/ccw/static/js/2.b467232b.chunk.js.LICENSE.txt"
+    "main.css": "/CryptoCollectableWallet/static/css/main.2545b2e8.chunk.css",
+    "main.js": "/CryptoCollectableWallet/static/js/main.acbe4630.chunk.js",
+    "main.js.map": "/CryptoCollectableWallet/static/js/main.acbe4630.chunk.js.map",
+    "runtime-main.js": "/CryptoCollectableWallet/static/js/runtime-main.00d0d761.js",
+    "runtime-main.js.map": "/CryptoCollectableWallet/static/js/runtime-main.00d0d761.js.map",
+    "static/css/2.c5b6f512.chunk.css": "/CryptoCollectableWallet/static/css/2.c5b6f512.chunk.css",
+    "static/js/2.b467232b.chunk.js": "/CryptoCollectableWallet/static/js/2.b467232b.chunk.js",
+    "static/js/2.b467232b.chunk.js.map": "/CryptoCollectableWallet/static/js/2.b467232b.chunk.js.map",
+    "static/js/3.e8205a70.chunk.js": "/CryptoCollectableWallet/static/js/3.e8205a70.chunk.js",
+    "static/js/3.e8205a70.chunk.js.map": "/CryptoCollectableWallet/static/js/3.e8205a70.chunk.js.map",
+    "index.html": "/CryptoCollectableWallet/index.html",
+    "static/css/2.c5b6f512.chunk.css.map": "/CryptoCollectableWallet/static/css/2.c5b6f512.chunk.css.map",
+    "static/css/main.2545b2e8.chunk.css.map": "/CryptoCollectableWallet/static/css/main.2545b2e8.chunk.css.map",
+    "static/js/2.b467232b.chunk.js.LICENSE.txt": "/CryptoCollectableWallet/static/js/2.b467232b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.01746f25.js",
+    "static/js/runtime-main.00d0d761.js",
     "static/css/2.c5b6f512.chunk.css",
     "static/js/2.b467232b.chunk.js",
     "static/css/main.2545b2e8.chunk.css",
-    "static/js/main.b3b9aade.chunk.js"
+    "static/js/main.acbe4630.chunk.js"
   ]
 }
