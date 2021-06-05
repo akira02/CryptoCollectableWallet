@@ -31,3 +31,11 @@ body {
   height: 40vw;
   object-fit: cover;
 }
+
+.detail_content {
+  margin: 20px;
+}
+
+.detail_content button {
+  margin: auto;
+}

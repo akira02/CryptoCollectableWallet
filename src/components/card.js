@@ -6,7 +6,7 @@ export const Carditem = ({ name = "unkonw", image = "" }) => {
   return (
     <Card
       hoverable
-      style={{ margin: 10, maxWidth: "40vw" }}
+      style={{ margin: 5, maxWidth: "40vw" }}
       cover={<img alt={name} src={image} />}
     >
       <Meta title={name} />

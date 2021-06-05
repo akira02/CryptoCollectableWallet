@@ -14,7 +14,7 @@ const Detail = () => {
   const [data, setdata] = useState([]);
 
   function handleClick() {
-    history.push("/");
+    history.goBack();
   }
 
   const fetchDetail = useCallback(() => {
@@ -48,18 +48,20 @@ const Detail = () => {
       ) : (
         <>
           <img className="detail_img" src={data.image_url} alt={data.name} />
-          <h1>{data.name}</h1>
-          <p>{data.description}</p>
-          <Button
-            type="primary"
-            shape="round"
-            size={"large"}
-            onClick={() => {
-              history.push("/");
-            }}
-          >
-            Permalink
-          </Button>
+          <div className="detail_content">
+            <h1>{data.name}</h1>
+            <p>{data.description}</p>
+            <Button
+              type="primary"
+              shape="round"
+              size={"large"}
+              onClick={() => {
+                handleClick();
+              }}
+            >
+              Permalink
+            </Button>
+          </div>
         </>
       )}
     </div>

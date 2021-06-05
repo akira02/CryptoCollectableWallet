@@ -1,7 +1,6 @@
 import { Route, HashRouter } from "react-router-dom";
 
 // styles
-import "./App.css";
 import "antd/dist/antd.css";
 
 // pages

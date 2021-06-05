@@ -3,31 +3,36 @@ import { Link } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 // component
-import { Carditem } from "../componments/card.js";
+import { Carditem } from "../components/card.js";
 
 // api
 import axios from "../api/api.js";
 
 // styles
-import { Col, Row } from "antd";
+import { Col, Row, Button } from "antd";
+
+import detectEthereumProvider from "@metamask/detect-provider";
 
 function List() {
   const [data, setdata] = useState([]);
   const [page, setpage] = useState(0);
   const [hasMore, sethasMore] = useState(true);
+  const [account, setaccount] = useState(
+    "0x960DE9907A2e2f5363646d48D7FB675Cd2892e91"
+  );
 
   useEffect(() => {
     setpage(0);
     setdata([]);
     fetchList();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [account]); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function fetchList() {
     axios
       .get("/assets", {
         params: {
           format: "json",
-          owner: "0x960DE9907A2e2f5363646d48D7FB675Cd2892e91",
+          owner: account,
           offset: page * 20,
           limit: 20,
         },
@@ -45,8 +50,32 @@ function List() {
       });
   }
 
+  async function connecteth() {
+    const provider = await detectEthereumProvider();
+    if (provider) {
+      const accounts = await window.ethereum.request({
+        method: "eth_requestAccounts",
+      });
+      const account = accounts[0];
+      setaccount(account);
+    } else {
+      console.error("Please install MetaMask!");
+    }
+  }
+
   return (
     <div className="App">
+      <Button
+        type="primary"
+        shape="round"
+        size={"large"}
+        onClick={() => {
+          connecteth();
+        }}
+      >
+        connect MetaMask
+      </Button>
+
       <InfiniteScroll
         dataLength={data.length}
         next={fetchList}
