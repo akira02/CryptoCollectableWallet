@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, HashRouter } from "react-router-dom";
+
+// styles
+import "./App.css";
+import "antd/dist/antd.css";
+
+// pages
+import List from "./pages/list.js";
+import Detail from "./pages/detail.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Route exact path="/" component={List} />
+      <Route path="/detail/:contractid/:token" component={Detail} />
+    </HashRouter>
   );
 }
 
